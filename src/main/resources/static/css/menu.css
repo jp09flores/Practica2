@@ -1,0 +1,219 @@
+* {
+
+    margin: 0;
+
+
+    box-sizing:  border-box;
+
+}
+
+
+
+body {
+    font-family: Arial;
+
+
+    padding: 45px 20px 0px;
+
+}
+
+
+
+.header {
+
+    background-color: black;
+
+    height: 12%;
+
+    top: 0;
+
+    left: 0;
+
+    width: 100%;
+
+
+    position: fixed;
+}
+
+
+
+.nav {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    max-width: 2000px;
+
+    margin: 0 auto;
+
+
+}
+
+
+.nav-link {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+
+
+.logo {
+
+    color: red;
+
+    font-size: 34px;
+
+    font-weight: bold;
+
+    padding: 0 10px;
+
+    line-height: 90px;
+
+}
+
+
+
+.nav-menu {
+
+    display: flex;
+
+    margin-right: 100px;
+
+    list-style: none;
+
+}
+
+
+
+.nav-menu-item {
+
+    font-size: 16px;
+
+    margin: 0 5px;
+
+    line-height: 90px;
+
+    width: max-content;
+
+}
+
+
+
+.nav-menu-link {
+
+    padding: 8px 8px;
+
+    border-radius: 10px;
+
+}
+
+
+.nav-menu-link:hover{
+
+    font-size: 20px;
+    font-weight: bold;
+
+    transition: 0.5s;
+
+}
+
+#contenido {
+
+
+    background-color: #f4f1eb;
+    position: fixed;
+    top: 12%;
+
+    bottom: 4%;
+
+    left: 0;
+    width: 100%;
+    overflow: auto;
+
+    padding-left: 15px;
+
+
+}
+#contenidoConAside{
+    left: 20%;
+    position: fixed;
+    top: 12%;
+    bottom: 4%;
+    overflow: auto;
+    padding-left: 15px;
+    position: fixed;
+    background-color: #f4f1eb;
+}
+
+
+
+
+.footer {
+
+    background-color: #999999;
+
+    text-align: center;
+
+    color: white;
+
+    height: 4%;
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+}
+p{
+    text-indent: 0.5in;
+    font-size: 18px;
+
+}
+h3{
+    text-decoration: underline;
+
+}
+.span5{
+    color :#666600;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+aside {
+    background-color: #cccccc;
+    top: 12%;
+    left: 0;
+    right: 80%;
+    bottom: 4%;
+    position: fixed;
+}
+
+.span6 {
+    color: crimson;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+
+span6 {
+    color: #ac823c;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}
+a{
+    color:blue;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center
+}
